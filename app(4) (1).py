@@ -60,7 +60,7 @@ with st.sidebar:
         "Model",
         options=[
            "openai/gpt-oss-120b",
-            "llama-3.1-8b-instant",
+            "openai/gpt-oss-120b-instant",
         ],
         index=0,
         help="Choose the Groq model used to generate the email.",
