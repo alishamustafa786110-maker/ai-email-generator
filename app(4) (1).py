@@ -59,7 +59,7 @@ with st.sidebar:
     model = st.selectbox(
         "Model",
         options=[
-            "llama-3.3-70b-versatile",
+           "openai/gpt-oss-120b",
             "llama-3.1-8b-instant",
         ],
         index=0,
